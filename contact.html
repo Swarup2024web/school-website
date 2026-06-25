@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Holy International School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i>HIS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <h1 class="page-title">Get in Touch</h1>
+            <p class="page-subtitle">We'd love to hear from you</p>
+        </div>
+    </div>
+
+    <!-- Main Content with Sidebar -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-lg-9 col-md-8">
+                <!-- Contact Form Section -->
+                <section class="py-5 px-4">
+                    <div class="section-header mb-5">
+                        <h2 class="section-title">Send us a Message</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    <form id="contactForm" class="contact-form-premium">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name" class="form-label"><i class="fas fa-user me-2"></i>Full Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email" class="form-label"><i class="fas fa-envelope me-2"></i>Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone" class="form-label"><i class="fas fa-phone me-2"></i>Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject" class="form-label"><i class="fas fa-tag me-2"></i>Subject</label>
+                                    <select class="form-select" id="subject" required>
+                                        <option>Select a subject</option>
+                                        <option>Admission Inquiry</option>
+                                        <option>Program Information</option>
+                                        <option>Fees & Scholarships</option>
+                                        <option>Event Information</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="message" class="form-label"><i class="fas fa-pencil me-2"></i>Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="formMessage" class="alert alert-success d-none mt-4" role="alert"></div>
+                </section>
+
+                <!-- Contact Information -->
+                <section class="py-5 px-4">
+                    <div class="section-header mb-5">
+                        <h2 class="section-title">Contact Information</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="info-card-premium">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h5>Address</h5>
+                                <p>123 Education Lane<br>Learning City, ST 12345<br>Country</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card-premium">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <h5>Phone</h5>
+                                <p>Main: +1 (555) 123-4567<br>Admissions: +1 (555) 123-4568<br>Support: +1 (555) 123-4569</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card-premium">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p>General: info@holyint.com<br>Admissions: admissions@holyint.com<br>Support: support@holyint.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card-premium">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <h5>Office Hours</h5>
+                                <p>Mon-Fri: 8:00 AM - 4:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- FAQ Section -->
+                <section class="py-5 px-4">
+                    <div class="section-header mb-5">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <i class="fas fa-question-circle me-2"></i>When is the admission period?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Admissions are open throughout the year, but the main admission cycle is from November to March for the next academic year.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <i class="fas fa-question-circle me-2"></i>What are the scholarship options?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We offer merit-based and need-based scholarships. Please contact our admissions office for detailed information and eligibility criteria.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <i class="fas fa-question-circle me-2"></i>Is transportation provided?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we provide comprehensive transportation services with daily routes covering major areas in and around the city.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <i class="fas fa-question-circle me-2"></i>What is the student-teacher ratio?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We maintain an average student-teacher ratio of 1:15 to ensure personalized attention and quality education.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="col-lg-3 col-md-4">
+                <!-- Quick Contact -->
+                <div class="sidebar-widget contact-widget">
+                    <div class="widget-header">
+                        <i class="fas fa-headset"></i>
+                        <h5>Need Help?</h5>
+                    </div>
+                    <div class="widget-body">
+                        <p class="mb-3">Our admissions team is ready to assist you!</p>
+                        <a href="tel:+15551234567" class="btn btn-primary w-100 mb-2">
+                            <i class="fas fa-phone me-2"></i>Call Us
+                        </a>
+                        <a href="mailto:info@holyint.com" class="btn btn-outline-primary w-100">
+                            <i class="fas fa-envelope me-2"></i>Email Us
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="sidebar-widget social-widget">
+                    <div class="widget-header">
+                        <i class="fas fa-share-alt"></i>
+                        <h5>Follow Us</h5>
+                    </div>
+                    <div class="widget-body">
+                        <div class="social-icons">
+                            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Link -->
+                <div class="sidebar-widget map-widget">
+                    <div class="widget-header">
+                        <i class="fas fa-map"></i>
+                        <h5>Find Us</h5>
+                    </div>
+                    <div class="widget-body">
+                        <p>Visit our beautiful campus</p>
+                        <a href="#" class="btn btn-outline-primary w-100">
+                            <i class="fas fa-directions me-2"></i>Get Directions
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-md-3 mb-4">
+                    <h6 class="footer-title">
+                        <i class="fas fa-graduation-cap me-2"></i>HIS
+                    </h6>
+                    <p class="footer-text">Building tomorrow's leaders with excellence and integrity.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="footer-title">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i>About Us</a></li>
+                        <li><a href="programs.html"><i class="fas fa-chevron-right"></i>Programs</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="footer-title">Programs</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Early Childhood</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Elementary</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Middle School</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>High School</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="footer-title">Contact Info</h6>
+                    <p class="footer-text">
+                        <i class="fas fa-map-marker-alt me-2"></i>123 Education Lane<br>
+                        <i class="fas fa-phone me-2"></i>+1 (555) 123-4567<br>
+                        <i class="fas fa-envelope me-2"></i>info@holyint.com
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; 2024 Holy International School (HIS). All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
