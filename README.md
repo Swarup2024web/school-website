@@ -1,6 +1,6 @@
-# Excellence Academy School Website
+# Holy International School (HIS) Website
 
-A modern, fully-functional school website built with HTML, CSS, and JavaScript. This website serves as a comprehensive digital presence for an educational institution.
+A modern, fully-functional school website built with HTML, CSS, and JavaScript. This website serves as a comprehensive digital presence for Holy International School.
 
 ## 📋 Features
 
@@ -111,7 +111,7 @@ school-website/
 
 ### Modify School Information
 Edit the following files to customize content:
-- **School Name**: Update "Excellence Academy" in all HTML files
+- **School Name**: "Holy International School (HIS)" - already configured
 - **Contact Info**: Edit contact details in `contact.html` and footer sections
 - **Content**: Modify text in respective HTML pages
 
@@ -215,7 +215,7 @@ Update social media links in `contact.html` footer section:
 ## 📧 Contact & Support
 
 For questions or suggestions, please contact:
-- Email: info@excellenceacademy.com
+- Email: info@holyinternationalschool.com
 - Phone: +1 (555) 123-4567
 
 ## 📄 License
@@ -224,7 +224,7 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Credits
 
-Created with ❤️ for educational institutions worldwide.
+Created with ❤️ for Holy International School.
 
 ---
 
